@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('/Users/ericpark/Downloads/input.txt', delim_whitespace = True, header = None)
+df = pd.read_csv('/Users/ericpark/Downloads/day1.txt', delim_whitespace = True, header = None)
 
 def day1_pt1(x):
     overall_dist = 0
