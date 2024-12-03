@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('/Users/ericpark/Downloads/input2.txt', header = None)
+df = pd.read_csv('/Users/ericpark/Downloads/day2.txt', header = None)
 df2 = df[0].apply(lambda x: [int(ele) for ele in x.split()])
 
 def rule1(lst):
